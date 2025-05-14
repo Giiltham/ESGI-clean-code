@@ -13,9 +13,9 @@
     <input type="submit" value="Rechercher">
 </form>
 <table>
-    <tr th:each="editeur:${editeurs}">
-        <td th:text="${editeur.id}"></td>
-        <td th:text="${editeur.nom}"></td>
+    <tr th:each="editeurEntity:${editeurs}">
+        <td th:text="${editeurEntity.id}"></td>
+        <td th:text="${editeurEntity.nom}"></td>
     </tr>
 </table>
 <a href="editeur">Ajouter un éditeur</a>

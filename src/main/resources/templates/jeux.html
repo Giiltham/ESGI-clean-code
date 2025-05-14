@@ -9,7 +9,7 @@
     <meta http-equiv="expires" content="0" />
 </head>
 <body>
-<div th:replace="entete"></div>
+<div th:replace="~{entete}"></div>
 <h1>Liste des jeux</h1>
 
 <table width="100%">
@@ -20,7 +20,7 @@
         <td>Genre <a th:href="@{jeux?sort=genre.nom}">trier</a></td>
         <td>Plateforme</td>
         <td>Date de sortie <a th:href="@{jeux?sort=dateDeSortie,DESC}">trier</a></td>
-        <td>Editeur <a th:href="@{jeux?sort=editeur.nom}">trier</a></td>
+        <td>Editeur <a th:href="@{jeux?sort=editeurEntity.nom}">trier</a></td>
         <td>Actions</td>
     </tr>
     </thead>

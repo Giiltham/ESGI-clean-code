@@ -14,9 +14,9 @@ public class AjouterEditeurUseCase {
     }
 
     public Editeur ajouterEditeur(Editeur editeur) {
-        editeurRepository.findByNomIgnoreCase(editeur.getNom()).ifPresent((editeur1) ->
-                new EditeurDejaPresentException(String.format("L'éditeur %s est déjà présent", editeur1.getNom()))
-        );
+        editeurRepository.findByNomIgnoreCase(editeur.getNom()).ifPresent((editeur1) -> {
+            throw new EditeurDejaPresentException(String.format("L'éditeur %s est déjà présent", editeur1.getNom()));
+        });
         return editeurRepository.save(editeur);
     }
 }

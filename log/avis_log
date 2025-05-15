@@ -16403,3 +16403,31 @@ Unconditional classes:
 Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
 2025-05-15T23:07:13.076+02:00  INFO 8973 --- [avis] [Thread-52] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
 2025-05-15T23:07:13.076+02:00  INFO 8973 --- [avis] [Thread-52] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
+2025-05-15T23:12:08.924+02:00  INFO 20078 --- [avis] [main] fr.esgi.fx.avis.AvisApplicationTests     : Starting AvisApplicationTests using Java 23.0.2 with PID 20078 (started by qcouderc in /home/qcouderc/Documents/M2AL/Software_architecture/test/ESGI-clean-code)
+2025-05-15T23:12:08.925+02:00  INFO 20078 --- [avis] [main] fr.esgi.fx.avis.AvisApplicationTests     : The following 1 profile is active: "DEV"
+2025-05-15T23:12:09.499+02:00  INFO 20078 --- [avis] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-15T23:12:09.542+02:00  INFO 20078 --- [avis] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 10 JPA repository interfaces.
+2025-05-15T23:12:10.437+02:00  INFO 20078 --- [avis] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-15T23:12:10.469+02:00  INFO 20078 --- [avis] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-05-15T23:12:10.492+02:00  INFO 20078 --- [avis] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-15T23:12:10.563+02:00  INFO 20078 --- [avis] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-15T23:12:10.583+02:00  INFO 20078 --- [avis] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-15T23:12:10.725+02:00  INFO 20078 --- [avis] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:avis user=SA
+2025-05-15T23:12:10.727+02:00  INFO 20078 --- [avis] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-15T23:12:10.770+02:00  INFO 20078 --- [avis] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-15T23:12:11.468+02:00  INFO 20078 --- [avis] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-15T23:12:11.510+02:00  INFO 20078 --- [avis] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-15T23:12:11.847+02:00  INFO 20078 --- [avis] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-15T23:12:13.279+02:00  WARN 20078 --- [avis] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-15T23:12:14.371+02:00  INFO 20078 --- [avis] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path ''
+2025-05-15T23:12:14.468+02:00  INFO 20078 --- [avis] [main] fr.esgi.fx.avis.AvisApplicationTests     : Started AvisApplicationTests in 5.783 seconds (process running for 7.654)
+2025-05-15T23:12:16.703+02:00  INFO 20078 --- [avis] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-15T23:12:16.706+02:00  INFO 20078 --- [avis] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-15T23:12:16.711+02:00  INFO 20078 --- [avis] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

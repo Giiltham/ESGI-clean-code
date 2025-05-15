@@ -1,6 +1,6 @@
 package fr.esgi.fx.avis.infrastructure.repository;
 
-import fr.esgi.fx.avis.adapters.dto.NbJoueursParAnnee;
+import fr.esgi.fx.avis.adapter.dto.NbJoueursParAnnee;
 import fr.esgi.fx.avis.infrastructure.entity.JoueurEntity;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -39,7 +39,7 @@ public interface JoueurJpaRepository extends JpaRepository<JoueurEntity, Long> {
     // Comment obtenir le nombre de joueurs par année de naissance
     // Projection : SELECT new
     @Query("""
-            SELECT new fr.esgi.fx.avis.adapters.dto.NbJoueursParAnnee(year(j.dateDeNaissance), count(*))
+            SELECT new fr.esgi.fx.avis.adapter.dto.NbJoueursParAnnee(year(j.dateDeNaissance), count(*))
             FROM JoueurEntity j
             GROUP BY year(j.dateDeNaissance)
             """)

@@ -1,6 +1,6 @@
-package fr.esgi.fx.avis.adapters.repository;
+package fr.esgi.fx.avis.adapter.repository;
 
-import fr.esgi.fx.avis.adapters.mapper.EditeurMapper;
+import fr.esgi.fx.avis.adapter.mapper.EditeurMapper;
 import fr.esgi.fx.avis.application.repository.EditeurRepository;
 import fr.esgi.fx.avis.domain.model.Editeur;
 import fr.esgi.fx.avis.infrastructure.repository.EditeurJpaRepository;

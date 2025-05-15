@@ -1,7 +1,7 @@
-package fr.esgi.fx.avis.adapters.mapper;
+package fr.esgi.fx.avis.adapter.mapper;
 
 import fr.esgi.fx.avis.domain.model.Plateforme;
-import fr.esgi.fx.avis.adapters.dto.PlateformeDto;
+import fr.esgi.fx.avis.adapter.dto.PlateformeDto;
 import fr.esgi.fx.avis.infrastructure.entity.PlateformeEntity;
 import org.mapstruct.*;
 

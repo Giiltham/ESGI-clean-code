@@ -1,17 +1,15 @@
-package fr.esgi.fx.avis.adapters.mapper;
+package fr.esgi.fx.avis.adapter.mapper;
 
 import fr.esgi.fx.avis.domain.model.Editeur;
 import fr.esgi.fx.avis.domain.model.Genre;
 import fr.esgi.fx.avis.domain.model.Jeu;
-import fr.esgi.fx.avis.adapters.dto.JeuDto;
+import fr.esgi.fx.avis.adapter.dto.JeuDto;
 import fr.esgi.fx.avis.domain.model.Plateforme;
 import fr.esgi.fx.avis.infrastructure.entity.EditeurEntity;
 import fr.esgi.fx.avis.infrastructure.entity.GenreEntity;
 import fr.esgi.fx.avis.infrastructure.entity.JeuEntity;
 import fr.esgi.fx.avis.infrastructure.entity.PlateformeEntity;
 import org.mapstruct.*;
-
-import java.util.List;
 
 @Mapper(unmappedTargetPolicy = ReportingPolicy.IGNORE, componentModel = MappingConstants.ComponentModel.SPRING)
 public interface JeuMapper {

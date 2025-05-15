@@ -1,7 +1,7 @@
-package fr.esgi.fx.avis.adapters.mapper;
+package fr.esgi.fx.avis.adapter.mapper;
 
 import fr.esgi.fx.avis.domain.model.Genre;
-import fr.esgi.fx.avis.adapters.dto.GenreDto;
+import fr.esgi.fx.avis.adapter.dto.GenreDto;
 import fr.esgi.fx.avis.infrastructure.entity.GenreEntity;
 import org.mapstruct.*;
 

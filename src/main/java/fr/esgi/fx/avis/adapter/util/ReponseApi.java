@@ -1,4 +1,4 @@
-package fr.esgi.fx.avis.adapters.util;
+package fr.esgi.fx.avis.adapter.util;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;

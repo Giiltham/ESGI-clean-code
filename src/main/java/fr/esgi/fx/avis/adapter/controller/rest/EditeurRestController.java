@@ -1,14 +1,13 @@
-package fr.esgi.fx.avis.adapters.controller.rest;
+package fr.esgi.fx.avis.adapter.controller.rest;
 
-import fr.esgi.fx.avis.adapters.mapper.EditeurMapper;
+import fr.esgi.fx.avis.adapter.mapper.EditeurMapper;
 import fr.esgi.fx.avis.application.usecase.AjouterEditeurUseCase;
 import fr.esgi.fx.avis.application.usecase.RecupererEditeurUseCase;
 import fr.esgi.fx.avis.application.usecase.SupprimerEditeurUseCase;
-import fr.esgi.fx.avis.domain.model.Editeur;
-import fr.esgi.fx.avis.adapters.dto.EditeurDto;
+import fr.esgi.fx.avis.adapter.dto.EditeurDto;
 import fr.esgi.fx.avis.application.exception.EditeurDejaPresentException;
 import fr.esgi.fx.avis.application.exception.EditeurInexistantException;
-import fr.esgi.fx.avis.adapters.util.ReponseApi;
+import fr.esgi.fx.avis.adapter.util.ReponseApi;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;

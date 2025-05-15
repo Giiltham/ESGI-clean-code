@@ -1,4 +1,4 @@
-package fr.esgi.fx.avis.adapters.dto;
+package fr.esgi.fx.avis.adapter.dto;
 
 import fr.esgi.fx.avis.domain.model.Jeu;
 import lombok.Value;

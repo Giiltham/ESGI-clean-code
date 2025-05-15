@@ -1,4 +1,4 @@
-package fr.esgi.fx.avis.adapters.controller;
+package fr.esgi.fx.avis.adapter.controller;
 
 import fr.esgi.fx.avis.domain.model.Editeur;
 import jakarta.persistence.EntityManagerFactory;

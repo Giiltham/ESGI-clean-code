@@ -1,6 +1,6 @@
-package fr.esgi.fx.avis.adapters.repository;
+package fr.esgi.fx.avis.adapter.repository;
 
-import fr.esgi.fx.avis.adapters.mapper.PlateformeMapper;
+import fr.esgi.fx.avis.adapter.mapper.PlateformeMapper;
 import fr.esgi.fx.avis.application.repository.PlateformeRepository;
 import fr.esgi.fx.avis.domain.model.Plateforme;
 import fr.esgi.fx.avis.infrastructure.repository.PlateformeJpaRepository;

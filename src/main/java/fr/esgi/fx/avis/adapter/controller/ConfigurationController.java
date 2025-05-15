@@ -1,4 +1,4 @@
-package fr.esgi.fx.avis.adapters.controller;
+package fr.esgi.fx.avis.adapter.controller;
 
 import jakarta.servlet.MultipartConfigElement;
 import lombok.AllArgsConstructor;

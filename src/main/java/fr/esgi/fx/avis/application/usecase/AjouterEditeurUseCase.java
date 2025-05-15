@@ -1,6 +1,5 @@
 package fr.esgi.fx.avis.application.usecase;
 
-import fr.esgi.fx.avis.adapters.dto.EditeurDto;
 import fr.esgi.fx.avis.application.exception.EditeurDejaPresentException;
 import fr.esgi.fx.avis.application.repository.EditeurRepository;
 import fr.esgi.fx.avis.domain.model.Editeur;

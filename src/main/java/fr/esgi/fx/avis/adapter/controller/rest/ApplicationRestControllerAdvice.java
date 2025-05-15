@@ -1,4 +1,4 @@
-package fr.esgi.fx.avis.adapters.controller.rest;
+package fr.esgi.fx.avis.adapter.controller.rest;
 
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.ConstraintViolationException;

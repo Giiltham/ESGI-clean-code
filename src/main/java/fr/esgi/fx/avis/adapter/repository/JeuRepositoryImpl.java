@@ -1,6 +1,6 @@
-package fr.esgi.fx.avis.adapters.repository;
+package fr.esgi.fx.avis.adapter.repository;
 
-import fr.esgi.fx.avis.adapters.mapper.JeuMapper;
+import fr.esgi.fx.avis.adapter.mapper.JeuMapper;
 import fr.esgi.fx.avis.application.repository.JeuRepository;
 import fr.esgi.fx.avis.domain.model.Jeu;
 import fr.esgi.fx.avis.infrastructure.repository.JeuJpaRepository;

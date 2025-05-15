@@ -1,11 +1,10 @@
-package fr.esgi.fx.avis.adapters.controller.rest;
+package fr.esgi.fx.avis.adapter.controller.rest;
 
-import fr.esgi.fx.avis.adapters.mapper.JeuMapper;
+import fr.esgi.fx.avis.adapter.mapper.JeuMapper;
 import fr.esgi.fx.avis.application.usecase.AjouterImageJeuUseCase;
 import fr.esgi.fx.avis.application.usecase.AjouterJeuUseCase;
 import fr.esgi.fx.avis.application.usecase.RecupererJeuUseCase;
-import fr.esgi.fx.avis.domain.model.Jeu;
-import fr.esgi.fx.avis.adapters.dto.JeuDto;
+import fr.esgi.fx.avis.adapter.dto.JeuDto;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;

@@ -1,7 +1,7 @@
-package fr.esgi.fx.avis.adapters.mapper;
+package fr.esgi.fx.avis.adapter.mapper;
 
 import fr.esgi.fx.avis.domain.model.Editeur;
-import fr.esgi.fx.avis.adapters.dto.EditeurDto;
+import fr.esgi.fx.avis.adapter.dto.EditeurDto;
 import fr.esgi.fx.avis.domain.model.Genre;
 import fr.esgi.fx.avis.domain.model.Jeu;
 import fr.esgi.fx.avis.domain.model.Plateforme;
